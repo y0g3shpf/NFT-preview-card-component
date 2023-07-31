@@ -1,0 +1,71 @@
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  --darkblue: hsl(217, 54%, 11%);
+  --verydarkblue: hsl(216, 50%, 16%);
+  --Verydarkblueline: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--darkblue);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.image img {
+  width: 270px;
+  height: 270px;
+}
+.box {
+  width: 270px;
+  height: 490px;
+  color: var(--verydarkblue);
+  border: 1px solid var(--Verydarkblueline);
+  padding: 30px;
+  border-radius: 20px;
+}
+.section h2 {
+  color: var(--White);
+}
+.eth {
+  color: var(--Cyan);
+}
+.eth span {
+  margin-left: 2px;
+}
+.description {
+  color: var(--Verydarkblueline);
+}
+.days {
+  color: var(--Softblue);
+}
+.Creation {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+.Creation p {
+  color: var(--Verydarkblueline);
+  display: inline-block;
+}
+.Creation img {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.name {
+  color: var(--White);
+}
+hr {
+  margin-top: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
